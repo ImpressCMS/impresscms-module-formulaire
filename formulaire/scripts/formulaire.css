@@ -1,0 +1,8 @@
+#fixedtipdiv{
+position:absolute;
+padding: 2px;
+border:1px solid black;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+}
