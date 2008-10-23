@@ -172,7 +172,7 @@ define("_AM_PREF","Voreinstellungen");
 define("_AM_MENU","Menü");
 define("_AM_ABOUT","Über");
 define("_AM_HELP","Hilfe");
-define("_AM_SERV","Server Info");
+define("_AM_SERV","Modul- und Server-Info");
 define("_AM_USER_SIDE","Startseite");
 define("_AM_MODADMIN","Admin");
 define("_AM_BLOCKSANDGROUPS","Blöcke und Gruppen");

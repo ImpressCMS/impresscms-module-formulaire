@@ -230,7 +230,7 @@ if ($res_mod) {
 		$module_id = $row[0];
 }
 
-$perm_name = 'Permission des catégories';
+$perm_name = 'Permission > categories';
 if (is_object($xoopsUser)) {
 	$uid = $xoopsUser->getVar("uid");
 } else {
@@ -287,7 +287,7 @@ if( empty($_POST['submit']) ) {
 
 	$form = new XoopsThemeForm($form2, $modversion["dirname"], $urlsuite);
 
-	$form->setExtra("enctype='multipart/form-data'") ; // impératif !
+	$form->setExtra("enctype='multipart/form-data'") ; // impï¿½ratif !
 	include_once(XOOPS_ROOT_PATH . "/class/uploader.php");
 	if (!empty($_POST['event_id']) && !empty($_POST['event_title'])) { // aus pical kommend
 	  $picalid = new XoopsFormHidden('pical_eventid', intval($_POST['event_id']));
@@ -709,7 +709,7 @@ foreach ($_POST["xoops_upload_file"] as $indiceUpload => $fichier)
 {
 	if( !empty( $fichier ) || $fichier != "") {
 		
-		// teste si aucun fichier n'a été joint
+		// teste si aucun fichier n'a ï¿½tï¿½ joint
 		if($_FILES[$fichier]['error'] == '2' || $_FILES[$fichier]['error'] == '1') {
 			$error = sprintf(_FORMULAIRE_MSG_BIG, $xoopsConfig['sitename'])._FORMULAIRE_MSG_THANK;
 			redirect_header(XOOPS_URL."/modules/".$modversion['dirname']."/formulaire.php?id=".$id, 3, $error);
@@ -726,7 +726,7 @@ foreach ($_POST["xoops_upload_file"] as $indiceUpload => $fichier)
 			redirect_header(XOOPS_URL."/modules/".$modversion['dirname']."/formulaire.php?id=".$id, 3, $error);
 		}
 
-		// teste si le fichier a été uploadé dans le répertoire temporaire:
+		// teste si le fichier a ï¿½tï¿½ uploadï¿½ dans le rï¿½pertoire temporaire:
 		if( ! is_readable( $_FILES[$fichier]['tmp_name'])  || $_FILES[$fichier]['tmp_name'] == "" ) {
 			$path = '';
 			$filename = '';

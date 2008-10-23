@@ -46,19 +46,19 @@ define("_MI_FORMULAIREMENU_BNAME","Formular");
 define("_MI_VERSION","3.3");
 
 // Beta
-define("_MI_WARNING_BETA", "This module comes as is, without any guarantees whatsoever. 
-This module is BETA, meaning it is still under active development. This release is meant for
-<b>testing purposes only</b> and we <b>strongly</b> recommend that you do not use it on a live 
-website or in a production environment.");
+define("_MI_WARNING_BETA", "Das Modul befindet sich in der vollen Entwicklungsphase. 
+Es ist eine BETA-Version, damit ist gemeint dass es sich in einer aktiven Entwicklungsphase befindet. Daher sollte das Modul
+<b>nur zu Testzwecken</b> eingesetzt werden. Wir empfehlen das Modul 
+nicht für produktive Webseiten einzusetzen, da es noch schwere Fehler besitzten könnte.");
 
 // RC
-define("_MI_WARNING_RC", "This module comes as is, without any guarantees whatsoever. This module 
-is a Release Candidate and should not be used on a production web site. The module is still under 
-active development and its use is under your own responsibility, which means the author is not responsible.");
+define("_MI_WARNING_RC", "Das Modul befindet sich in der vollen Entwicklungsphase. 
+Es ist eine 'Release Candidate' (RC) Version. Daher sollte das Modul <b>nur zu Testzwecken</b> eingesetzt werden. 
+Wir empfehlen das Modul nicht für produktive Webseiten einzusetzen, da es noch kleine Fehler vorhanden sein könnten.");
 
 // Final
-define("_MI_WARNING_FINAL", "This module comes as is, without any guarantees whatsoever. Although this 
-module is not beta, it is still under active development. This release can be used in a live website 
-or a production environment, but its use is under your own responsibility, which means the author 
-is not responsible.");
+define("_MI_WARNING_FINAL", "Dieses Modul kommt ohne Gewähr. Obwohl dieses
+Modul sich nicht in einer Beta Version befindet, steht ist es immer noch im Rahmen einer aktiven Entwicklung. Diese Version kann für produktive Webseiten verwendet werden 
+oder einer Produktions-Umgebung, aber die Verwendung ist unter Ihrer eigenen Verantwortung. Das bedeutet, dass der Autor
+nicht verantwortlich ist.");
 ?>

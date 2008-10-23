@@ -5,7 +5,7 @@ define("_AM_DBUPDATED","Database Updated Successfully!");
 define("_AM_ELE_CREATE","Create form elements : ");
 define("_AM_ELE_EDIT","Edit form element: %s");
 define("_AM_FORMU","Form ");
-define("_AM_FORM_REQ","Result n° : ");
+define("_AM_FORM_REQ","Result nr. : ");
 define("_AM_REQ","Results of the form module : ");
 define("_AM_SEPAR",'{null}');
 define("_AM_ELE_FORM","Form elements");

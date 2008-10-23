@@ -202,7 +202,7 @@ if ($res_mod) {
 		$module_id = $row[0];
 }
 
-$perm_name = 'Permission des catégories';
+$perm_name = 'Permission > categories';
 if (is_object($xoopsUser)) {
 	$uid = $xoopsUser->getVar("uid");
 } else {
@@ -267,7 +267,7 @@ $block['content'] .='<div id="dhtmltooltip"></div>
 <script type="text/javascript">
 
 /***********************************************
-* Cool DHTML tooltip script- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Cool DHTML tooltip script- ï¿½ Dynamic Drive DHTML code library (www.dynamicdrive.com)
 * This notice MUST stay intact for legal use
 * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
 ***********************************************/

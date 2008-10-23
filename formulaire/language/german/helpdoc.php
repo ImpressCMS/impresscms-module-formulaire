@@ -1,16 +1,16 @@
 <?php
 
-define("_DOC_MOD_INSTALL","Module installation");
-define("_DOC_PRE_INSTALL","Pre-required");
-define("_DOC_NEW_INSTALL","Fresh install");
-define("_DOC_MAJ_INSTALL","Upgrade from a previous version");
-define("_DOC_PROC_INSTALL","Installation procedure");
+define("_DOC_MOD_INSTALL","Modul installation");
+define("_DOC_PRE_INSTALL","Erforderlich");
+define("_DOC_NEW_INSTALL","Neuinstallation");
+define("_DOC_MAJ_INSTALL","Upgrade von einer älteren Version");
+define("_DOC_PROC_INSTALL","Installationsprozess");
 
-define("_DOC_PRE","To use the formulaire module, are necessary :
+define("_DOC_PRE","Zur Benutzung des Formular-Modules sind folgende Punkte notwendig :
 <ul>
-	<li>the impresscms version, or more recent</li>
-	<li>you have to do a chmod 777 on the module's upload folder</li>
-	<li>impresscms must be configured to send mails</li>");
+	<li>Eine ImpressCMS Version 1.1 oder höher</li>
+	<li>Es werden Schreibrechte (chmod 777) für den uploads Ordner benötigt</li>
+	<li>ImpressCMS muss für das Versenden von Email konfiguriert sein</li>");
 
 define("_DOC_INSTALL","You don't have previous formulaire or you don't want to migrate old data ? follow this process :
 <ul>

@@ -1,11 +1,13 @@
 Changelog
 
-22 October 2008
+23 October 2008
+RenÃ©
+- changed to new version 3.4 RC1
 - sql file corrected
 - fomulaire.php > path for captcha with ImpressCMS line 38-39, 411, 427
 - fomulaire.php > path for phpmailer with ImpressCMS line 35
 - elementrenderer.php changed from "ko" to "KB"
-- german: Checkbox > Kontrollkästchen
+- german: Checkbox > KontrollkÃ¤stchen
 - admin/export.php > hardcode from french to english
 - admin/mailindex.php > default to UTF-8 line 282, 420, 498
 - class/elementrenderer.php > required elements * correcred
@@ -14,8 +16,15 @@ Changelog
 - javascript for mouseover is updated
 - fomulaire.php > permission better line 111-122
 
+
+
+
+
+
+
+
 7 October 2004
-Hervé :
+Hervï¿½ :
 - Added a changelog
 - Some corrections in the english translations
 - Remove all the mysql functions calls
@@ -46,7 +55,7 @@ admin/index.php -> the button new sort must not appears when the fom does not co
 menu_index.php -> addition of arrows to change the element position, addition of the possibility to activate or desactivate the forms, suppression of the possibility to add a menu element, modification of the page style.
 If the margins and indentation are empty, they ar put at 0.
 formulaire.html and index.php -> a message appears when a form is available but does not contain elements
-Addition of credits : using of admin menu : Marcan (aka Marc-André) www.smartfactory.ca
+Addition of credits : using of admin menu : Marcan (aka Marc-Andrï¿½) www.smartfactory.ca
 mailindex.php -> using of XoopsFormLoader to the forms.
 Addition of information (url of return, help for the form, text for the submit button, elements to send, text encoding).
 Modification of the sql file.
@@ -68,7 +77,7 @@ renom.php -> the form's title is tested, it can't be empty (title2)
 index.php -> in the mail, a new link to the user profile has been created
 mailindex.php -> when a new form is created, its position is the last
 menu_index.php -> the element's position appears on the column position
-menu_index.php -> en passant sur la colonne position, la position de l'élément s'affiche
+menu_index.php -> en passant sur la colonne position, la position de l'ï¿½lï¿½ment s'affiche
 class/elements.php -> when a new elemeny is created, its position is the last
 admin/index.php -> the element's order appears on the column position
 modform.php -> a new link to the form on the user side has been created
@@ -137,58 +146,58 @@ Fix the problem with references in the renderer process (for using with php4.4)
 
 
 
-Français :
+Franï¿½ais :
 footer.php -> modif de l'affichage, appel des modversion
-mymenu.php -> création de la fonction d'affichage du menu (block_FORMULAIREMENU_menu)
-xoops_version.php -> hasMain passe à 0, appel d'un bloc faisant appel à la nouvelle fonction définie dans mymenu.php
-fichiers langue -> ajout de _AM_SEE_FORM correspondant au lien permettant d'accéder directement à une formulaire à partir des pages admin
+mymenu.php -> crï¿½ation de la fonction d'affichage du menu (block_FORMULAIREMENU_menu)
+xoops_version.php -> hasMain passe ï¿½ 0, appel d'un bloc faisant appel ï¿½ la nouvelle fonction dï¿½finie dans mymenu.php
+fichiers langue -> ajout de _AM_SEE_FORM correspondant au lien permettant d'accï¿½der directement ï¿½ une formulaire ï¿½ partir des pages admin
 formindex.php -> ajout de bulles d'aides sur les images du menu. Ajout du fichier main15.js permettant la gestion des bulles.
-fichiers langue -> ajout des informations rentrées dans les bulles d'aide
-ajout du fichier include/functions.php -> contient une fonction permettant l'affichage d'un menu par onglet. Modification de cette fonction afin de la rendre compatible (modification des chemins d'accès ainsi que des liens et de l'affichage).
-Création dans les fichiers langue des éléments nécessaires pour l'affichage. 
-Création du fichier modform.php correspondant à l'onglet formulaire -> permet la réalisation des différentes actions sur les formulaires
+fichiers langue -> ajout des informations rentrï¿½es dans les bulles d'aide
+ajout du fichier include/functions.php -> contient une fonction permettant l'affichage d'un menu par onglet. Modification de cette fonction afin de la rendre compatible (modification des chemins d'accï¿½s ainsi que des liens et de l'affichage).
+Crï¿½ation dans les fichiers langue des ï¿½lï¿½ments nï¿½cessaires pour l'affichage. 
+Crï¿½ation du fichier modform.php correspondant ï¿½ l'onglet formulaire -> permet la rï¿½alisation des diffï¿½rentes actions sur les formulaires
 Fichiers formindex.php, mailindex.php, export.php, renom.php, consult.php, index.php, menu_index.php, modform.php -> ajout de l'inclusion du fichier functions.php, et appel de la fonction form_menuAdmin
-Modif du menu (menu.php) -> ajout des différents éléments du menu (création, exportation...) dans le menu du module (menu de gauche)
-Ajout de la gestion des groupes et blocs dans le module -> ajout des fichiers myblocksadmin.php, mygroupperm.php, mygrouppermform.php et admin.php partie admin, ajout du fichier blocksadmin.inc.php dans include, ajout d'un lien dans les menus du module pour accéder à cette gestion
-Modification dans le fichier consult.php -> l'image en bas ramène à la page précédente (javascript:history.go(-1);) et non plus au formindex.php 
-Le fichier formindex n'est plus utilisé -> les fonctions qu'il permettait se font maintenant grâce à plusieurs fichiers (mailindex.php, modform.php et export.php)
-Modification des URLs -> le passage de page en page se fait dorénavant uniquement en passant l'identifiant du formulaire et non plus le titre comme c'était le cas dans certains liens. Modifications dans les fichiers modform.php, admin/index.php, elemenst.php, renom.php, index.php, mailindex.php, consult.php
-Modification dans index.php -> {GROUPE} était affiché dans le mail lorsqu'aucun groupe n'était sélectionné. Ajout ligne 492 de : else $xoopsMailer->assign("GROUPE", "");
-Modification dans admin/index.php -> le bouton ordonner ne doit pas être affiché si aucun élément n'a été créé dans le formulaire, ligne 131 :  if ($elements[1] != '') {$submit = new XoopsFormButton('', 'submit', _AM_REORD, 'submit'); .... }
-Modifications menu_index.php ->ajout des flèches pour régler la position de chaque élément, ajout de la possibilité d'activer ou désactiver un formulaire directement sur cette page, suppression de la possibilité d'ajouter un élément au menu, modification du style des pages.
-Si les marges et l'indentation sont vides, alors on les passe à 0.
-modform.php -> ajout d'un message lorsqu'il n'y a pas de formulaires à modifier (l. 110)
+Modif du menu (menu.php) -> ajout des diffï¿½rents ï¿½lï¿½ments du menu (crï¿½ation, exportation...) dans le menu du module (menu de gauche)
+Ajout de la gestion des groupes et blocs dans le module -> ajout des fichiers myblocksadmin.php, mygroupperm.php, mygrouppermform.php et admin.php partie admin, ajout du fichier blocksadmin.inc.php dans include, ajout d'un lien dans les menus du module pour accï¿½der ï¿½ cette gestion
+Modification dans le fichier consult.php -> l'image en bas ramï¿½ne ï¿½ la page prï¿½cï¿½dente (javascript:history.go(-1);) et non plus au formindex.php 
+Le fichier formindex n'est plus utilisï¿½ -> les fonctions qu'il permettait se font maintenant grï¿½ce ï¿½ plusieurs fichiers (mailindex.php, modform.php et export.php)
+Modification des URLs -> le passage de page en page se fait dorï¿½navant uniquement en passant l'identifiant du formulaire et non plus le titre comme c'ï¿½tait le cas dans certains liens. Modifications dans les fichiers modform.php, admin/index.php, elemenst.php, renom.php, index.php, mailindex.php, consult.php
+Modification dans index.php -> {GROUPE} ï¿½tait affichï¿½ dans le mail lorsqu'aucun groupe n'ï¿½tait sï¿½lectionnï¿½. Ajout ligne 492 de : else $xoopsMailer->assign("GROUPE", "");
+Modification dans admin/index.php -> le bouton ordonner ne doit pas ï¿½tre affichï¿½ si aucun ï¿½lï¿½ment n'a ï¿½tï¿½ crï¿½ï¿½ dans le formulaire, ligne 131 :  if ($elements[1] != '') {$submit = new XoopsFormButton('', 'submit', _AM_REORD, 'submit'); .... }
+Modifications menu_index.php ->ajout des flï¿½ches pour rï¿½gler la position de chaque ï¿½lï¿½ment, ajout de la possibilitï¿½ d'activer ou dï¿½sactiver un formulaire directement sur cette page, suppression de la possibilitï¿½ d'ajouter un ï¿½lï¿½ment au menu, modification du style des pages.
+Si les marges et l'indentation sont vides, alors on les passe ï¿½ 0.
+modform.php -> ajout d'un message lorsqu'il n'y a pas de formulaires ï¿½ modifier (l. 110)
 modform.php -> addition of a message when there are no forms to modify (l. 110)
-formulaire.html et index.php -> affichage d'un message lorsqu'un formulaire est disponible mais qu'il ne contient pas d'éléments
-Ajout credits : utilisation de la partie admin : Marcan (aka Marc-André) www.smartfactory.ca
+formulaire.html et index.php -> affichage d'un message lorsqu'un formulaire est disponible mais qu'il ne contient pas d'ï¿½lï¿½ments
+Ajout credits : utilisation de la partie admin : Marcan (aka Marc-Andrï¿½) www.smartfactory.ca
 mailindex.php -> modification pour l'affichage du formulaire, utilisation de XoopsFormLoader.
-Ajout de champs (url de retour, aide du formulaire, texte du bouton d'envoi, éléments à envoyer, type d'encodage du mail).
+Ajout de champs (url de retour, aide du formulaire, texte du bouton d'envoi, ï¿½lï¿½ments ï¿½ envoyer, type d'encodage du mail).
 Modification du fichier sql pour ajouter ces champs.
-modification de l'url de retour d'un formulaire -> utilisation de la valeur rentrée lors de la création du formulaire dans index.php
-texte du bouton d'envoi -> utilisation de la valeur rentrée lors de la création du formulaire dans index.php
-modification lors de l'envoi du mail -> ajout de la possibilité de choisir les éléments à envoyer, modification lors de la création du mail. Une chaine représentant le corps du mail est créée dans le fichier index.php, cette chaine est appelée dans les fichiers formulaire.tpl. Ajout des traductions dans les fichiers langue. 
-mailindex.php -> ajout de valeurs par défaut pour l'url de retour et le texte du bouton d'envoi du formulaire. Ajout des replace afin de remplacer les caractères spéciaux(&,',",\r\n)
-mymenu.php -> ajout des bulles d'aide sur les noms des formulaires. On teste le contenu de la bulle d'aide, s'il est à blanc, on n'affiche pas la bulle d'aide, sinon, on l'affiche
-mailindex.php -> ajout d'un champ blanc dans la liste de sélection du groupe
-les champs mainmenu et membersonly de la table form_menu n'étant d'aucune utilité, ils ont été supprimés
-index.php ->ajout de la prise en compte de type de codage utilisé pour le mail
-admin/index.php -> ajout d'images, de flèches pour la position des éléments, de bulles d'aide, suppression du bouton réordonner
+modification de l'url de retour d'un formulaire -> utilisation de la valeur rentrï¿½e lors de la crï¿½ation du formulaire dans index.php
+texte du bouton d'envoi -> utilisation de la valeur rentrï¿½e lors de la crï¿½ation du formulaire dans index.php
+modification lors de l'envoi du mail -> ajout de la possibilitï¿½ de choisir les ï¿½lï¿½ments ï¿½ envoyer, modification lors de la crï¿½ation du mail. Une chaine reprï¿½sentant le corps du mail est crï¿½ï¿½e dans le fichier index.php, cette chaine est appelï¿½e dans les fichiers formulaire.tpl. Ajout des traductions dans les fichiers langue. 
+mailindex.php -> ajout de valeurs par dï¿½faut pour l'url de retour et le texte du bouton d'envoi du formulaire. Ajout des replace afin de remplacer les caractï¿½res spï¿½ciaux(&,',",\r\n)
+mymenu.php -> ajout des bulles d'aide sur les noms des formulaires. On teste le contenu de la bulle d'aide, s'il est ï¿½ blanc, on n'affiche pas la bulle d'aide, sinon, on l'affiche
+mailindex.php -> ajout d'un champ blanc dans la liste de sï¿½lection du groupe
+les champs mainmenu et membersonly de la table form_menu n'ï¿½tant d'aucune utilitï¿½, ils ont ï¿½tï¿½ supprimï¿½s
+index.php ->ajout de la prise en compte de type de codage utilisï¿½ pour le mail
+admin/index.php -> ajout d'images, de flï¿½ches pour la position des ï¿½lï¿½ments, de bulles d'aide, suppression du bouton rï¿½ordonner
 Pour renommer le module formulaire, changer les chemins dans :
 mymenu.php, l.52
 common.php, l.35 et l.38
-mailindex.php -> ajout de la liste de sélection des types d'encodage (ISO-8859-1,ISO-8859-15,UTF-8,cp866,cp1251,cp1252,KOI8-R,BIG5,GB2312,BIG5-HKSCS,Shift_JIS,EUC-JP)
+mailindex.php -> ajout de la liste de sï¿½lection des types d'encodage (ISO-8859-1,ISO-8859-15,UTF-8,cp866,cp1251,cp1252,KOI8-R,BIG5,GB2312,BIG5-HKSCS,Shift_JIS,EUC-JP)
 mailindex.php -> ajout d'un champ "aucun" dans la liste des groupes.
-renom.php -> le titre du formulaire est testé pour ne plus pouvoir être à blanc (title2)
-index.php -> dans le mail, lorsqu'on envoie le nom de l'expéditeur, on trouve maintenant un lien direct vers le profil de l'expéditeur
-mailindex.php -> lorsqu'on ajoute un formulaire, il est maintenant placé en dernière position
-class/elements.php -> lors de la création d'un élément, celui-ci est placé en dernière position
-admin/index.php -> en passant sur la colonne ordre, la position de l'élément s'affiche
-modform.php -> ajout d'un lien pour accéder directement au formulaire côté utilisateur
-mailindex.php -> dans les éléments du mail, on ne trouve plus le envoyé à
-préférences -> on ne peut plus sélectionner l'envoi de messages privés (xoops_version.php)
-index.php -> il n'y a plus de test de la méthode d'envoi, toujours par mail
+renom.php -> le titre du formulaire est testï¿½ pour ne plus pouvoir ï¿½tre ï¿½ blanc (title2)
+index.php -> dans le mail, lorsqu'on envoie le nom de l'expï¿½diteur, on trouve maintenant un lien direct vers le profil de l'expï¿½diteur
+mailindex.php -> lorsqu'on ajoute un formulaire, il est maintenant placï¿½ en derniï¿½re position
+class/elements.php -> lors de la crï¿½ation d'un ï¿½lï¿½ment, celui-ci est placï¿½ en derniï¿½re position
+admin/index.php -> en passant sur la colonne ordre, la position de l'ï¿½lï¿½ment s'affiche
+modform.php -> ajout d'un lien pour accï¿½der directement au formulaire cï¿½tï¿½ utilisateur
+mailindex.php -> dans les ï¿½lï¿½ments du mail, on ne trouve plus le envoyï¿½ ï¿½
+prï¿½fï¿½rences -> on ne peut plus sï¿½lectionner l'envoi de messages privï¿½s (xoops_version.php)
+index.php -> il n'y a plus de test de la mï¿½thode d'envoi, toujours par mail
 remplacement de tous les $HTTP_POST_VARS par $POST et $HTTP_GET_VARS par $GET
-erreur à l'installation Incorrect index name '', dans ce cas, remplacer UNIQUE KEY (`desc_form`) par UNIQUE KEY `` (`desc_form`) dans le fichier mysql.sql
+erreur ï¿½ l'installation Incorrect index name '', dans ce cas, remplacer UNIQUE KEY (`desc_form`) par UNIQUE KEY `` (`desc_form`) dans le fichier mysql.sql
 ajout avant chaque switch de 
 if (isset($_POST))
 {
@@ -206,65 +215,65 @@ if (isset($_GET))
     } 
 }
 afin d'initialiser les variables
-Index.php -> on affiche plus le numéro d'utilisateur dans le mail
-ele_upload.php, elements.php, xoops_version.php -> dans les préférences, ajout d'une valeur par défaut pour le poids des pièces jointes, gestion de la taille des pièces jointes en Ko, on enregistre donc la valeur en la multipliant par 1024 pour l'avoir en octet afin de faire le test sur la taille
+Index.php -> on affiche plus le numï¿½ro d'utilisateur dans le mail
+ele_upload.php, elements.php, xoops_version.php -> dans les prï¿½fï¿½rences, ajout d'une valeur par dï¿½faut pour le poids des piï¿½ces jointes, gestion de la taille des piï¿½ces jointes en Ko, on enregistre donc la valeur en la multipliant par 1024 pour l'avoir en octet afin de faire le test sur la taille
 modform.php -> ajout de la description des icones
 info serveur -> ajout d'une page donnant des informations sur le serveur
-consult.php -> ajout de la possibilité de classer les envois par date et utilisateur
-ajout de la possibilité d'enregistrer ou non les envois pour chaque formulaire -> ajout d'un champs dans le fichier mysql.sql, dans mailindex.php, ajout d'une case à cocher pour choisir d'enregistrer ou non, dans index.php, ajout du test sur cette valeur afin d'enregistrer ou non
-création d'une aide
-un lien dans la partie admin permet d'accéder à partir de n'importe quelle page à la partie utilisateur, de même, dans le bloc utilisateur, un lien permet d'accéder à la partie admin si l'utilisateur est admin bien sur
-sur la page d'info serveur, on trouve maintenant la possibilité de passer le site du mode normal au mode debug php, et vice versa
+consult.php -> ajout de la possibilitï¿½ de classer les envois par date et utilisateur
+ajout de la possibilitï¿½ d'enregistrer ou non les envois pour chaque formulaire -> ajout d'un champs dans le fichier mysql.sql, dans mailindex.php, ajout d'une case ï¿½ cocher pour choisir d'enregistrer ou non, dans index.php, ajout du test sur cette valeur afin d'enregistrer ou non
+crï¿½ation d'une aide
+un lien dans la partie admin permet d'accï¿½der ï¿½ partir de n'importe quelle page ï¿½ la partie utilisateur, de mï¿½me, dans le bloc utilisateur, un lien permet d'accï¿½der ï¿½ la partie admin si l'utilisateur est admin bien sur
+sur la page d'info serveur, on trouve maintenant la possibilitï¿½ de passer le site du mode normal au mode debug php, et vice versa
 consult.php -> on affiche le nombre d'envois sur chaque formulaire
-admin/index.php -> les flêches permettent de monter et descendre les éléments dans le menu, les cases pour rentrer directement le numéro ont été remises en place
-pour l'élément upload, deux types de fichier ont été ajoutés : rar et zip
-toujours pour cet élément, du côté utilisateur, il y a maintenant affichage de la taille max que peuvent prendre les fichiers joints
-ele_sep.php -> ajout de la possibilité de mettre l'élément en gras
-mymenu.php -> changement de l'url d'accès à l'image key.gif, posant des problèmes
-statistiques -> dans le fichier consult.php, création d'un lien vers stat.php, permettant d'afficher les statistiques pour chaque formulaire concernant les select box, checkbox, boutons radio et boutons oui/non. Un lien dans stat.php ammène à stati.php, version imprimable des statistiques 
-le répertoire d'upload est déplacé, il se trouve maintenant dans www/uploads et s'appelle "formulaire"
-lors de l'envoi d'un formulaire rempli, il est possible de faire répondre pour répondre directement à l'expéditeur. Pour les utilisateurs anonymes, c'est le serveur qui envoie
+admin/index.php -> les flï¿½ches permettent de monter et descendre les ï¿½lï¿½ments dans le menu, les cases pour rentrer directement le numï¿½ro ont ï¿½tï¿½ remises en place
+pour l'ï¿½lï¿½ment upload, deux types de fichier ont ï¿½tï¿½ ajoutï¿½s : rar et zip
+toujours pour cet ï¿½lï¿½ment, du cï¿½tï¿½ utilisateur, il y a maintenant affichage de la taille max que peuvent prendre les fichiers joints
+ele_sep.php -> ajout de la possibilitï¿½ de mettre l'ï¿½lï¿½ment en gras
+mymenu.php -> changement de l'url d'accï¿½s ï¿½ l'image key.gif, posant des problï¿½mes
+statistiques -> dans le fichier consult.php, crï¿½ation d'un lien vers stat.php, permettant d'afficher les statistiques pour chaque formulaire concernant les select box, checkbox, boutons radio et boutons oui/non. Un lien dans stat.php ammï¿½ne ï¿½ stati.php, version imprimable des statistiques 
+le rï¿½pertoire d'upload est dï¿½placï¿½, il se trouve maintenant dans www/uploads et s'appelle "formulaire"
+lors de l'envoi d'un formulaire rempli, il est possible de faire rï¿½pondre pour rï¿½pondre directement ï¿½ l'expï¿½diteur. Pour les utilisateurs anonymes, c'est le serveur qui envoie
 enregistrement de l'adresse ip dans la table form_form lorsqu'un formulaire est rempli
-ajout de la possibilité de restreindre l'envoi de formulaires, un seul par utilisateur, un administrateur ne sera jamais restreint
-une image peut maintenant être affichée sur la page de remplissage du formulaire
-un répertoire imgform est créé dans le répertoire www/uploads/formulaire, afin de stocker les images 
-suppression de la page permettant de renommer un formulaire, nous l'avons fusionner avec la page de modification des paramètres d'un formulaire
-ajout de la possibilité d'afficher le titre et ou l'image, et de choisir leur ordre d'affichage
-pour la restriction de l'envoi de formulaires, ajout d'un champ nombre de jours, qui permet de définir, si désiré, un nombre de jours entre deux envois de formulaire
-possibilité de créer des QCM, ils sont restreints au niveau des éléments disponibles, les valeurs par défaut rentrées correspondent aux bonnes réponses, côté utilisateur, les valeurs par défaut ne sont donc plus affichées, dans le mail, les réponses de la personne sont affichées et on compare avec les bonnes réponses
-l'utilisateur décide s'il veut que les réponses et le résultat des qcm soient affichés dans le mail envoyé au candidat
-possibilité de consulter les stats des qcm, pour cela, même chose que pour les formulaires normaux. Pour les qcm, seuls les résultats des bonnes questions sont affichés avec le pourcentage de bonnes réponses
-la moyenne des bonnes réponses est affichée et le pourcentage de réussite également
-pour le consult, le nombre de bonnes réponses est affiché pour chaque envoi, les réponses du candidat sont affichées ainsi que les bonnes réponses, puis le résultat total
-création d'un nouveau bloc spécial pour les qcm, les deux blocs sont gérés séparément
+ajout de la possibilitï¿½ de restreindre l'envoi de formulaires, un seul par utilisateur, un administrateur ne sera jamais restreint
+une image peut maintenant ï¿½tre affichï¿½e sur la page de remplissage du formulaire
+un rï¿½pertoire imgform est crï¿½ï¿½ dans le rï¿½pertoire www/uploads/formulaire, afin de stocker les images 
+suppression de la page permettant de renommer un formulaire, nous l'avons fusionner avec la page de modification des paramï¿½tres d'un formulaire
+ajout de la possibilitï¿½ d'afficher le titre et ou l'image, et de choisir leur ordre d'affichage
+pour la restriction de l'envoi de formulaires, ajout d'un champ nombre de jours, qui permet de dï¿½finir, si dï¿½sirï¿½, un nombre de jours entre deux envois de formulaire
+possibilitï¿½ de crï¿½er des QCM, ils sont restreints au niveau des ï¿½lï¿½ments disponibles, les valeurs par dï¿½faut rentrï¿½es correspondent aux bonnes rï¿½ponses, cï¿½tï¿½ utilisateur, les valeurs par dï¿½faut ne sont donc plus affichï¿½es, dans le mail, les rï¿½ponses de la personne sont affichï¿½es et on compare avec les bonnes rï¿½ponses
+l'utilisateur dï¿½cide s'il veut que les rï¿½ponses et le rï¿½sultat des qcm soient affichï¿½s dans le mail envoyï¿½ au candidat
+possibilitï¿½ de consulter les stats des qcm, pour cela, mï¿½me chose que pour les formulaires normaux. Pour les qcm, seuls les rï¿½sultats des bonnes questions sont affichï¿½s avec le pourcentage de bonnes rï¿½ponses
+la moyenne des bonnes rï¿½ponses est affichï¿½e et le pourcentage de rï¿½ussite ï¿½galement
+pour le consult, le nombre de bonnes rï¿½ponses est affichï¿½ pour chaque envoi, les rï¿½ponses du candidat sont affichï¿½es ainsi que les bonnes rï¿½ponses, puis le rï¿½sultat total
+crï¿½ation d'un nouveau bloc spï¿½cial pour les qcm, les deux blocs sont gï¿½rï¿½s sï¿½parï¿½ment
 changement parametre : $modversion['hasMain'] = 1; pour afficher le module dans le menu principal
 ajout de la liste des formulaires et QCM dans l'index du module formulaire
-ajout d'un type d'éléments : sélection d'adresses mail, permettant à l'admin de rentrer une liste d'adresse et à l'utilisateur de choisir à qui envoyer le formulaire rempli dans cette liste. Si l'utilisateur ne choisit personne, le mail sera envoyé aux personnes choisies lors de la création du formulaire
+ajout d'un type d'ï¿½lï¿½ments : sï¿½lection d'adresses mail, permettant ï¿½ l'admin de rentrer une liste d'adresse et ï¿½ l'utilisateur de choisir ï¿½ qui envoyer le formulaire rempli dans cette liste. Si l'utilisateur ne choisit personne, le mail sera envoyï¿½ aux personnes choisies lors de la crï¿½ation du formulaire
 modification de l'affichage des mails
-le bouton d'envoi, la bulle d'aide et le titre du formulaire ne fonctionnaient pas avec smart language, problème résolu
-problème lors de l'upgrade ou de l'install, le champ qcm était mal déclaré provoquant un problème lors d'un test
-suppression de la possibilité de mettre certains éléments en requis, après vérification, ceux ci n'étaient pas gérés
+le bouton d'envoi, la bulle d'aide et le titre du formulaire ne fonctionnaient pas avec smart language, problï¿½me rï¿½solu
+problï¿½me lors de l'upgrade ou de l'install, le champ qcm ï¿½tait mal dï¿½clarï¿½ provoquant un problï¿½me lors d'un test
+suppression de la possibilitï¿½ de mettre certains ï¿½lï¿½ments en requis, aprï¿½s vï¿½rification, ceux ci n'ï¿½taient pas gï¿½rï¿½s
 
 V3.23
-Correction des problèmes de références dans la génération du formulaire coté utilisateur (pour compatibilité avec php4.4)
+Correction des problï¿½mes de rï¿½fï¿½rences dans la gï¿½nï¿½ration du formulaire cotï¿½ utilisateur (pour compatibilitï¿½ avec php4.4)
 
 V3.24
 Correction probleme de verification des adresses mail dans le fichier mailindex.php
-Ajout de la fonctionnalité captcha de DuGris
-Compatibilite PHP5 par hervé /admin/modform.php et /class/elements.php
+Ajout de la fonctionnalitï¿½ captcha de DuGris
+Compatibilite PHP5 par hervï¿½ /admin/modform.php et /class/elements.php
 
 pas de possibilite d'element requis :
 case a cocher 
 bouton radio
-Sélection adresses mail
-Sélection adresses mail unique
+Sï¿½lection adresses mail
+Sï¿½lection adresses mail unique
 fichier joint
 
 V3.25
 Correction rendu liste des formulaires dans /admin/modform
 Ajout des notions de templates pour l'index et les blocks (DuGris)
-Implémentation de la gestion des blockspour XOOPS 2.0.14 dans l'admin (DuGris)
-Suppression de l'appel à la classe securityimage en tant que hack XOOPS
+Implï¿½mentation de la gestion des blockspour XOOPS 2.0.14 dans l'admin (DuGris)
+Suppression de l'appel ï¿½ la classe securityimage en tant que hack XOOPS
 Prise en compte du module securityimage (DuGris)
 
 V3.26
@@ -278,105 +287,105 @@ To Do :
 - form printing
 
 A Faire :
-- Un modérateur pour chaque formulaire
+- Un modï¿½rateur pour chaque formulaire
 - checkEmail($email,$antispam = false) modform.php
 - Formatage XML
 - afficher le formulaire dans un PDF
 - imprimer le formulaire rempli
 - Ajouter plusieurs elements dans une meme ligne (ex qte et prix)
 - clonage de plusieurs element d'un seul coup (suffixe a ajouter a la fin de la designation de l'element ? boite a cocher (o/n)) nombre de clones
-- ajout d'un type d'éléments, adresses mails pour choisir coté utilisateur à qui envoyer
+- ajout d'un type d'ï¿½lï¿½ments, adresses mails pour choisir cotï¿½ utilisateur ï¿½ qui envoyer
 
 
 -Pouvoir Importer des formulaires ( mode CSV par exemple)
 -Pouvoir modifier le style des elements ( une zone style renseignable par le user, pour changer la couleur ,le fond des bouton , des combos , des textes etc)
 -Pouvoir modifier le style des libelles des elements
--Pouvoir personnaliser le bouton 'Envoyer' du formulaire ( texte et libellé)pour le multilingue par exemple et mettre un bouton Annuler ou Clear a coté
+-Pouvoir personnaliser le bouton 'Envoyer' du formulaire ( texte et libellï¿½)pour le multilingue par exemple et mettre un bouton Annuler ou Clear a cotï¿½
 
 
 
 
 Salut Philou,
 
-En fait, ca n'est pas "mon" idée mais quelque chose que j'ai vu dans Typo3.
-Lorsque tu définis un formulaire, il est aussi possible de définir une page
-qui est appellée après que le formulaire ait été envoyé. Style page de
-remerciement. Comme Xoops n'a pas les meme fonctionnalités
-que Typo, tu pourrais demander à l'utilisateur s'il souhaite afficher un
-message après l'envoie du formulaire et la page appellée (en fait toujours
-la meme), n'aurait plus qu'à affiche ce message.
+En fait, ca n'est pas "mon" idï¿½e mais quelque chose que j'ai vu dans Typo3.
+Lorsque tu dï¿½finis un formulaire, il est aussi possible de dï¿½finir une page
+qui est appellï¿½e aprï¿½s que le formulaire ait ï¿½tï¿½ envoyï¿½. Style page de
+remerciement. Comme Xoops n'a pas les meme fonctionnalitï¿½s
+que Typo, tu pourrais demander ï¿½ l'utilisateur s'il souhaite afficher un
+message aprï¿½s l'envoie du formulaire et la page appellï¿½e (en fait toujours
+la meme), n'aurait plus qu'ï¿½ affiche ce message.
 
 A+
-Hervé
+Hervï¿½
 
 
 
 
 Salut philou
 
-premier feedback suite à l'utilisation de ton superbe module
+premier feedback suite ï¿½ l'utilisation de ton superbe module
 version 3.22 pour 2.0.x
 
-bugs relevés / dde éclaircissements ?
+bugs relevï¿½s / dde ï¿½claircissements ?
 -----------------------------------------
-1/ comment faire pour réduire la largeur de la colonne du nom du champ côté 
-utilisateur. J'ai un tableau 50%/50% à l'heure actuelle
-Solution :  le tableau s’ajuste sur la plus grande des valeurs donnée au paramètre « Colonne » pour un element.
-2/ Affichage Titre d'un élement / affichage à améliorer pour les frenchies
-"Comment avez-vu entendu parler de l'opération parrainage ?" ---> devient 
-"Comment avez-vu entendu parler de l\'opération parrainage ?"
-+ il devrait s'afficher plutôt dans la première colonne (celle du nom des 
+1/ comment faire pour rï¿½duire la largeur de la colonne du nom du champ cï¿½tï¿½ 
+utilisateur. J'ai un tableau 50%/50% ï¿½ l'heure actuelle
+Solution :  le tableau sï¿½ajuste sur la plus grande des valeurs donnï¿½e au paramï¿½tre ï¿½ Colonne ï¿½ pour un element.
+2/ Affichage Titre d'un ï¿½lement / affichage ï¿½ amï¿½liorer pour les frenchies
+"Comment avez-vu entendu parler de l'opï¿½ration parrainage ?" ---> devient 
+"Comment avez-vu entendu parler de l\'opï¿½ration parrainage ?"
++ il devrait s'afficher plutï¿½t dans la premiï¿½re colonne (celle du nom des 
 champs) voire dans une seule ligne, avec au choix alignement gauche/droite
-3/ j'ai un phénomène de loop quand on accède à l'admin
+3/ j'ai un phï¿½nomï¿½ne de loop quand on accï¿½de ï¿½ l'admin
 je suis en 2.0.13.1 et quand j'arrive dans l'admin, notamment modification, 
 on dirait qu'il loope / boucle pour afficher la page, on dirait un loop par groupe
 4/ Fichier aide install
 "* you have to do a chmod 777 on the module's upload folder" --> in the 
 xoops'folder
-"* notice : there is no access to the module from the main menu" --> à 
+"* notice : there is no access to the module from the main menu" --> ï¿½ 
 supprimer
 5/ "indentation gauche" ---> ??? kesako ?
-= Décalage/Retrait ?
-6/ Ajouter des numéro d’ordre puis reordonner supprime le paramétrage « Elt Requis »
-8/ Export des données
-Les zones de texte se génèrent mal (retour à la ligne qui s’affiche dans la première colonne sous excel
-L’export en colonne plutôt qu’en ligne serait plus pratique (avec un user par ligne), pour pouvoir faire des tris plus facilement
+= Dï¿½calage/Retrait ?
+6/ Ajouter des numï¿½ro dï¿½ordre puis reordonner supprime le paramï¿½trage ï¿½ Elt Requis ï¿½
+8/ Export des donnï¿½es
+Les zones de texte se gï¿½nï¿½rent mal (retour ï¿½ la ligne qui sï¿½affiche dans la premiï¿½re colonne sous excel
+Lï¿½export en colonne plutï¿½t quï¿½en ligne serait plus pratique (avec un user par ligne), pour pouvoir faire des tris plus facilement
 9/ Mail de confirmation envoi ?
-Comment faire pour que la personne qui remplis le formulaire reçoive un mail de confirmation ?
-10/ mail accusé d’envoi
-Case à cocher numérique s’affiche comme ceci dans le mail
+Comment faire pour que la personne qui remplis le formulaire reï¿½oive un mail de confirmation ?
+10/ mail accusï¿½ dï¿½envoi
+Case ï¿½ cocher numï¿½rique sï¿½affiche comme ceci dans le mail
   Nombre maximal de filleuls que vous accepteriez
 &n bsp; 1
-? il a du mettre 01 ou « _1 » (blanc)
+? il a du mettre 01 ou ï¿½ _1 ï¿½ (blanc)
 
-Autre chose bizarre : zone de texte à la fin d’un mail, correspondant à la dernière zone de mon formulaire 
+Autre chose bizarre : zone de texte ï¿½ la fin dï¿½un mail, correspondant ï¿½ la derniï¿½re zone de mon formulaire 
   Autre
 < td bgcolor='#efefef'>  pour tester
 Autre chose
-  Activités culturelles - Sorties
-  Cinéma
-Conférences
+  Activitï¿½s culturelles - Sorties
+  Cinï¿½ma
+Confï¿½rences
 < br>
 
 11/ adresse mail dans zone de texte
-Pouvoir contrôler que l’adresse saisie est une adresse valide (si l’utilisateur n’est pas logué)
+Pouvoir contrï¿½ler que lï¿½adresse saisie est une adresse valide (si lï¿½utilisateur nï¿½est pas loguï¿½)
 
-Proposition d'améliorations
+Proposition d'amï¿½liorations
 ------------------------------------------
-1/ possibilité d'imprimer un formulaire (ajouter peut être, à côté de la 
-prévisu, une icone permettant de générer un pdf)
+1/ possibilitï¿½ d'imprimer un formulaire (ajouter peut ï¿½tre, ï¿½ cï¿½tï¿½ de la 
+prï¿½visu, une icone permettant de gï¿½nï¿½rer un pdf)
 2/ Wording Gestion des blocs et groupe
-"Formulaire Droits d'accès des modules" --> Droit d'accès au module 
+"Formulaire Droits d'accï¿½s des modules" --> Droit d'accï¿½s au module 
 Formulaire
 "Formulaire Droits d'Administration des Modules" --> Droit d'administration 
 du module Formulaire
-3/ Possibilité de faire des pages break dans les formulaires
-4/ Choisir l’alignement des cases à cocher élément par élément et non pas globalement
+3/ Possibilitï¿½ de faire des pages break dans les formulaires
+4/ Choisir lï¿½alignement des cases ï¿½ cocher ï¿½lï¿½ment par ï¿½lï¿½ment et non pas globalement
 5/ couleur de texte
-Ajouter une zone de sélection (cf module news)
-6/ ajouter un numéro d’ordre automatiquement lors de la création des evts
-7/pouvoir changer de type d’elt lorsqu’on édite l’elt
-8/pouvoir modifier « requis » en masse
+Ajouter une zone de sï¿½lection (cf module news)
+6/ ajouter un numï¿½ro dï¿½ordre automatiquement lors de la crï¿½ation des evts
+7/pouvoir changer de type dï¿½elt lorsquï¿½on ï¿½dite lï¿½elt
+8/pouvoir modifier ï¿½ requis ï¿½ en masse
 9/ dupliquer un formulaire existant
 MARCO
 =========================================================================================================

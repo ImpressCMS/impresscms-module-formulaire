@@ -423,7 +423,7 @@ form_adminMenu(2, _AM_FORMS);
 		$sql = sprintf("DELETE FROM %s WHERE id_form = '%u'", $xoopsDB->prefix("form_form"), $id);
 		$xoopsDB->queryF($sql) or $eh->show("error : cannot delete the form in the form_form table (modform.php / delform())");
 
-		$perm_name = 'Permission des catégories';
+		$perm_name = 'Permission > categories';
 		//xoops_groupperm_deletebymoditem ($module_id>$perm_name>$id_form) ;
 
 		$url = "modform.php";
@@ -474,7 +474,7 @@ function permform()
 		    $tab[$row['id_form']] = $row['desc_form']." (".$row['id_form'].")";
 		  }
 	}
-// !! ne pas tenter de coder en html les traductions de ces deux 'define' -> les permissions ne sont plus réaffichées.
+// !! ne pas tenter de coder en html les traductions de ces deux 'define' -> les permissions ne sont plus rï¿½affichï¿½es.
 
 	$title_of_form = _AM_TITPERM;
 	$perm_name = 'Droits des categories'; //_AM_CATPERM;
