@@ -424,9 +424,9 @@ if( empty($_POST['submit']) ) {
 	include_once XOOPS_ROOT_PATH.'/footer.php';
 } else {
 	// SecurityImage 
-    if (file_exists (XOOPS_ROOT_PATH."/class/captcha/captcha.php")) {
-	  xoops_load("captcha");
-      $xoopsCaptcha =& XoopsCaptcha::getInstance();
+    if (@include_once ICMS_ROOT_PATH . "/class/captcha/captcha.php") {
+	 // xoops_load("captcha");
+      $xoopsCaptcha = XoopsCaptcha::instance();
 	  if (! $xoopsCaptcha->verify() ) {
 	    if (!empty($_POST['pical_eventid'])) {
 		  $redirect = XOOPS_URL . "/modules/piCal/?event_id=".intval($_POST['pical_eventid']);
