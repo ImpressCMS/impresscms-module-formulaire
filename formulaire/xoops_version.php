@@ -34,8 +34,8 @@
 $modversion['name'] = _MI_FORMULAIRE_NAME;
 $modversion['version'] = 3.40;
 $modversion['description'] = _MI_FORMULAIRE_DESC;
-$modversion['author'] = "sato-san + Philou";
-$modversion['credits'] = "sato-san + Philou";
+$modversion['author'] = "Philou + sato-san";
+$modversion['credits'] = "Philou + sato-san";
 $modversion['help'] = "";
 $modversion['license'] = "GPL v2";
 $modversion['official'] = 0;
@@ -69,7 +69,7 @@ $modversion['adminmenu'] = "admin/menu.php";
 $modversion['support_site_url'] = "http://www.impresscms.de";
 $modversion['support_site_name'] = "ImpressCMS.de";
 
-$modversion['author'] = "<a href='http://www.impresscms.de/' target='_blank'>René Sato</a>";
+$modversion['author'] = "<a href='http://instant-zero.com/' target='_blank'>Philou</a> + <a href='http://www.impresscms.de/' target='_blank'>René Sato</a>";
 $modversion['developer_lead'] = "René, Alfred, Fabien, Philou";
 $modversion['people']['translators'][] = "[url=http://community.impresscms.org/userinfo.php?uid=14]GibaPhp[/url] (Portuguese-Brazil)";
 $modversion['credits_about'] = "<a href='http://www.impresscms.de/' target='_blank'>René Sato</a>, Marcan, Hervé, Christian, Brandycoke";
