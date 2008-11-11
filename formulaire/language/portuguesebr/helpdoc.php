@@ -1,214 +1,214 @@
 <?php
-// Tradu√ß√£o por: GibaPhp - gibaphp.xoopstotal@gmail.com - http://www.xoopstotal.com.br - continua√ß√£o 3.40
+// TraduÁ„o por: GibaPhp - gibaphp.xoopstotal@gmail.com - http://www.xoopstotal.com.br - continuaÁ„o 3.40
 // traducao v.3.30 por Frodobr - frodoxbr@gmail.com
 
-define("_DOC_MOD_INSTALL","Instala√ß√£o do M√≥dulo"); // FrodoBr
-define("_DOC_PRE_INSTALL","Pr√©-requisitos"); // FrodoBr
-define("_DOC_NEW_INSTALL","Nova instala√ß√£o");  // FrodoBr
-define("_DOC_MAJ_INSTALL","Atualizando de usa vers√£o anterior"); // FrodoBr
-define("_DOC_PROC_INSTALL","Procedimento de Instala√ß√£o"); // FrodoBr
+define("_DOC_MOD_INSTALL","InstalaÁ„o do MÛdulo"); // FrodoBr
+define("_DOC_PRE_INSTALL","PrÈ-requisitos"); // FrodoBr
+define("_DOC_NEW_INSTALL","Nova instalaÁ„o");  // FrodoBr
+define("_DOC_MAJ_INSTALL","Atualizando de usa vers„o anterior"); // FrodoBr
+define("_DOC_PROC_INSTALL","Procedimento de InstalaÁ„o"); // FrodoBr
 
-define("_DOC_PRE","Para usar o m√≥dulo de formul√°rios √© necess√°rio :
+define("_DOC_PRE","Para usar o mÛdulo de formul·rios È necess·rio :
 <ul>
-	<li>A vers√£o do Xoops precisa ser maior do que a 2.0.7. Se mais recente deve trabalhar melhor.</li>
-	<li>Voc√™ precisar√° dar as devidas permiss√µes (chmod 777) no diret√≥rio de upload do m√≥dulo.</li>
+	<li>A vers„o do Xoops precisa ser maior do que a 2.0.7. Se mais recente deve trabalhar melhor.</li>
+	<li>VocÍ precisar· dar as devidas permissıes (chmod 777) no diretÛrio de upload do mÛdulo.</li>
 	<li>O Xoops precisa estar configurado antes para enviar os emails.</li>");
 
-define("_DOC_INSTALL","Voc√™ n√£o tem formulaire antigo ou voc√™ n√£o est√° migrando de uma base antiga ? veja este processo :
+define("_DOC_INSTALL","VocÍ n„o tem formulaire antigo ou vocÍ n„o est· migrando de uma base antiga ? veja este processo :
 <ul>
-  <li>Baixando o m√≥dulo</li>
-  <li>Verifique se voc√™ j√° tem o m√≥dulo do formulaire no sub-diret√≥rio do seu xoops ou local. (Se tiver, apague a pasta neste caso)</li>
-  <li>Descompactar o arquivo que cont√©m o m√≥dulo em algum local e envie o diret√≥rio formulaire para dentro da pasta modules do seu website</li>
-  <li>Para instalar o m√≥dulo √© s√≥ voc√™ entrar na administra√ß√£o de m√≥dulo e seguir a sequ√™ncia normal de qualquer instala√ß√£o de m√≥dulo</li>
-  <li>notice : Voc√™ apenas instalou o m√≥dulo e eles ainda n√£o estar√£o acess√≠veis pelos usu√°rio no menu principal do m√≥dulo</li>");
+  <li>Baixando o mÛdulo</li>
+  <li>Verifique se vocÍ j· tem o mÛdulo do formulaire no sub-diretÛrio do seu xoops ou local. (Se tiver, apague a pasta neste caso)</li>
+  <li>Descompactar o arquivo que contÈm o mÛdulo em algum local e envie o diretÛrio formulaire para dentro da pasta modules do seu website</li>
+  <li>Para instalar o mÛdulo È sÛ vocÍ entrar na administraÁ„o de mÛdulo e seguir a sequÍncia normal de qualquer instalaÁ„o de mÛdulo</li>
+  <li>notice : VocÍ apenas instalou o mÛdulo e eles ainda n„o estar„o acessÌveis pelos usu·rio no menu principal do mÛdulo</li>");
 
-define("_DOC_MAJ","Na vers√£o 3, em virtude de diversas modifica√ß√µes, n√£o est√° sendo poss√≠vel a migra√ß√£o e atualiza√ß√£o de vers√£o anteriores.<br />
- Isto √©, voc√™ ir√° precisar fazer a desinstala√ß√£o do seu m√≥dulo de formulaire e instalar esta nova vers√£o para trabalhar.");
-define("_DOC_PROC","Ap√≥s a instala√ß√£o do M√≥dulo : <ul>
-<li>Ativar os blocos no setor de 'Blocos e Grupos' imediatamente ap√≥s a instala√ß√£o</li>
-<li>Durante a instala√ß√£o, um formul√°rio de demonstra√ß√£o ser√° criado, os usu√°rios possuem permiss√µes para utiliza-lo se estiverem vis√≠veis no grupo determinado</li>
-<li>Se voc√™ localizou esta parte, a demonstra√ß√£o foi instalada e poder√° ser configurada para seus testes, mas se voc√™ estiver em um site externo, on-line, voc√™ poder√° ir√° precisar modificar o acesso desta url pela √°rea de administra√ß√£o</li>
-<li>O form estar√° agora pronto e a instala√ß√£o terminada</li>");
+define("_DOC_MAJ","Na vers„o 3, em virtude de diversas modificaÁıes, n„o est· sendo possÌvel a migraÁ„o e atualizaÁ„o de vers„o anteriores.<br />
+ Isto È, vocÍ ir· precisar fazer a desinstalaÁ„o do seu mÛdulo de formulaire e instalar esta nova vers„o para trabalhar.");
+define("_DOC_PROC","ApÛs a instalaÁ„o do MÛdulo : <ul>
+<li>Ativar os blocos no setor de 'Blocos e Grupos' imediatamente apÛs a instalaÁ„o</li>
+<li>Durante a instalaÁ„o, um formul·rio de demonstraÁ„o ser· criado, os usu·rios possuem permissıes para utiliza-lo se estiverem visÌveis no grupo determinado</li>
+<li>Se vocÍ localizou esta parte, a demonstraÁ„o foi instalada e poder· ser configurada para seus testes, mas se vocÍ estiver em um site externo, on-line, vocÍ poder· ir· precisar modificar o acesso desta url pela ·rea de administraÁ„o</li>
+<li>O form estar· agora pronto e a instalaÁ„o terminada</li>");
 
-define("_DOC_MOD_CONFIG","Configura√ß√£o do M√≥dulo");
-define("_DOC_PREF_CONFIG","Prefer√™ncias");
+define("_DOC_MOD_CONFIG","ConfiguraÁ„o do MÛdulo");
+define("_DOC_PREF_CONFIG","PreferÍncias");
 define("_DOC_BLGR_CONFIG","Blocos e Grupos");
 
-define("_DOC_PREF","Estes par√¢metros ser√£o v√°lidos para todo este m√≥dulo, seus novos formul√°rios, e tamb√©m poder√£o ter seus elementos modificados em cada formul√°rio se desejar. N√≥s fizemos :
+define("_DOC_PREF","Estes par‚metros ser„o v·lidos para todo este mÛdulo, seus novos formul·rios, e tambÈm poder„o ter seus elementos modificados em cada formul·rio se desejar. NÛs fizemos :
 <ul>
-	<li>Padr√£o para a <b><i>Caixa de Texto</i></b> : Este √© o tamanho da que a Caixa de Texto ir√° ter na tela</li>
-	<li>Padr√£o m√°ximo para o comprimento da <b><i>Caixa de Texto</i></b> : Este √© o tamanho m√°ximo do valor a ser colocado na Caixa de Texto</li>
-	<li>Padr√£o de altura para as <b><i>√Åreas de Texto</i></b> : Esta √© a altura para as √Åreas de Texto</li>
-	<li>Padr√£o de colunas para as <b><i>√Åreas de Texto</i></b> : Esta √© a coluna da √Årea de Texto</li>
-	<li>Padr√£o de tamanho para o <b><i>recebimento de arquivo</i></b> (em Kb.) : Este √© o tamanho m√°ximo do arquivo que poder√° ser enviado nos e-mails</li>
-	<li>Delimitador para configurar a <b><i>Caixa de verifica√ß√£o</i></b> e os <b><i>Bot√µes de R√°dio</i></b> : Este √© um limitador para a separa√ß√£o entre a Caixa de verifica√ß√£o e os Bot√µes de R√°dio, este poder√° ter espa√ßos em branco ou quebras de linhas</li>");
+	<li>Padr„o para a <b><i>Caixa de Texto</i></b> : Este È o tamanho da que a Caixa de Texto ir· ter na tela</li>
+	<li>Padr„o m·ximo para o comprimento da <b><i>Caixa de Texto</i></b> : Este È o tamanho m·ximo do valor a ser colocado na Caixa de Texto</li>
+	<li>Padr„o de altura para as <b><i>¡reas de Texto</i></b> : Esta È a altura para as ¡reas de Texto</li>
+	<li>Padr„o de colunas para as <b><i>¡reas de Texto</i></b> : Esta È a coluna da ¡rea de Texto</li>
+	<li>Padr„o de tamanho para o <b><i>recebimento de arquivo</i></b> (em Kb.) : Este È o tamanho m·ximo do arquivo que poder· ser enviado nos e-mails</li>
+	<li>Delimitador para configurar a <b><i>Caixa de verificaÁ„o</i></b> e os <b><i>Botıes de R·dio</i></b> : Este È um limitador para a separaÁ„o entre a Caixa de verificaÁ„o e os Botıes de R·dio, este poder· ter espaÁos em branco ou quebras de linhas</li>");
 
-define("_DOC_BLGR","Esta parte permite o gerenciamento das <b><i>permiss√µes</i></b> dos <i><b>Grupos e Blocos</i></b> deste m√≥dulo
+define("_DOC_BLGR","Esta parte permite o gerenciamento das <b><i>permissıes</i></b> dos <i><b>Grupos e Blocos</i></b> deste mÛdulo
 <ul>
-	<li>A primeira parte ser√° usada para controlar diretamente os blocos deste m√≥dulo, e n√£o no m√≥dulo do sistema</li>
-	<li>A segunda parte permite o gerenciamento dos formul√°rios e permiss√µes dos blocos por grupos xoops (webmasters, usu√°rios, an√¥nimos, etc)</li>");
+	<li>A primeira parte ser· usada para controlar diretamente os blocos deste mÛdulo, e n„o no mÛdulo do sistema</li>
+	<li>A segunda parte permite o gerenciamento dos formul·rios e permissıes dos blocos por grupos xoops (webmasters, usu·rios, anÙnimos, etc)</li>");
 
-define("_DOC_MOD_GESFORM","Gerenciamento de Formul√°rios");
-define("_DOC_CREAT_GESFORM","Criar um Formul√°rio");
-define("_DOC_CREAT","Antes de usar um formul√°rio, voc√™ criar isto. Aqui temos todos os parametros :<ul>
-	<li>T√≠tulo do Form, com a possibilidade de ser mostrado ou n√£o</li>
-	<li>Imagem do Form, com a possibilidade de mostrar ou n√£o</li>
-	<li>Primeiro elemento para ser mostrado na sua p√°gina, t√≠tulo ou imagem, se eles ser√£o mostrados</li>
-	<li>Se QCM foi escolhido, este formul√°rio ser√° um QCM e n√£o um form</li>
-	<li>Parametros da informa√ß√£o que ser√° mostrada de QCM no e-mail, se escolhido for QCM</li>
+define("_DOC_MOD_GESFORM","Gerenciamento de Formul·rios");
+define("_DOC_CREAT_GESFORM","Criar um Formul·rio");
+define("_DOC_CREAT","Antes de usar um formul·rio, vocÍ criar isto. Aqui temos todos os parametros :<ul>
+	<li>TÌtulo do Form, com a possibilidade de ser mostrado ou n„o</li>
+	<li>Imagem do Form, com a possibilidade de mostrar ou n„o</li>
+	<li>Primeiro elemento para ser mostrado na sua p·gina, tÌtulo ou imagem, se eles ser„o mostrados</li>
+	<li>Se QCM foi escolhido, este formul·rio ser· um QCM e n„o um form</li>
+	<li>Parametros da informaÁ„o que ser· mostrada de QCM no e-mail, se escolhido for QCM</li>
 	<li>Parametros de E-Mail : </li><ul>
 			<li>E-mail</li>
 			<li>Grupo</li>
-			<li>Enviar para a administra√ß√£o</li>
+			<li>Enviar para a administraÁ„o</li>
 			<li>Receber os campos preenchidos do form</li>
-			<li>Se 'Enviar como admin somente' estiver selecionada, ent√£o o formul√°rio ser√° enviado somente ao admin e ao remetente de e-mail quando ‚Äúreceber o formul√°rio preenchido‚Äù estiver selecionado. Se n√£o, o e-mail √© enviado ao , grupo e aos remetentes se forem selecionados</li>
+			<li>Se 'Enviar como admin somente' estiver selecionada, ent„o o formul·rio ser· enviado somente ao admin e ao remetente de e-mail quando ìreceber o formul·rio preenchidoî estiver selecionado. Se n„o, o e-mail È enviado ao , grupo e aos remetentes se forem selecionados</li>
 			</ul>
-	<li>URL de retorno ap√≥s o envio do form, este √© o padr√£o : XOOPS_URL</li>
-	<li>Ajuda para o form, mensagem no nome do formul√°rio no bloco usu√°rio</li>
-	<li>Texto para o bot√£o de envio, padr√£o √© : Ok</li>
+	<li>URL de retorno apÛs o envio do form, este È o padr„o : XOOPS_URL</li>
+	<li>Ajuda para o form, mensagem no nome do formul·rio no bloco usu·rio</li>
+	<li>Texto para o bot„o de envio, padr„o È : Ok</li>
 	<li>Elementos para o envio de e-mails</li><ul>
-			<li>O nome do remetente, um link do endere√ßo de e-mail com acesso ao perfil do usu√°rio</li>
-			<li>Endere√ßo IP</li>
+			<li>O nome do remetente, um link do endereÁo de e-mail com acesso ao perfil do usu·rio</li>
+			<li>EndereÁo IP</li>
 			<li>Navegador Web usado</li>
 			</ul>
-	<li>Texto de codifica√ß√£o do envio de e-mails</li>
-	<li>A grava√ß√£o dos formul√°rios enviados ser√£ tamb√©m acumulados na base de dados, para consulta e exporta√ß√£o</li>
-	<li>N√∫mero de envios por usu√°rio, se escolhido, ent√£o o usu√°rio pode somente preencher somente uma vez o formul√°rio, e a seguir, tamb√©m possibilitar√° que seja determinado um n√∫mero de dias entre dois preenchimentos consecutivos, se a primeira caixa for selecionada</li>");
+	<li>Texto de codificaÁ„o do envio de e-mails</li>
+	<li>A gravaÁ„o dos formul·rios enviados ser„ tambÈm acumulados na base de dados, para consulta e exportaÁ„o</li>
+	<li>N˙mero de envios por usu·rio, se escolhido, ent„o o usu·rio pode somente preencher somente uma vez o formul·rio, e a seguir, tambÈm possibilitar· que seja determinado um n˙mero de dias entre dois preenchimentos consecutivos, se a primeira caixa for selecionada</li>");
 
 define("_DOC_RENOM_GESFORM","Renomear um form");
-define("_DOC_RENOM","Quando um form j√° estiver criado, ser√° poss√≠vel renomea-lo tranquilamente.<br />
-Voc√™ dever√° selecionar um formul√°rio e incluir um novo nome na caixa de texto.");
+define("_DOC_RENOM","Quando um form j· estiver criado, ser· possÌvel renomea-lo tranquilamente.<br />
+VocÍ dever· selecionar um formul·rio e incluir um novo nome na caixa de texto.");
 
 define("_DOC_SUP_GESFORM","Apagar um form");
-define("_DOC_SUP","Um formul√°rio poder√° ser removido.<br /> Neste caso, o formul√°rio ser√° apagado do banco de dados definitivamente, mas tudo relativo a este form com seus elementos, envios, estat√≠sticas e prefer√™ncias tamb√©m.<br />
-Voc√™ dever√° selecionar um formul√°rio, um pedido de confirma√ß√£o ir√° aparecer, a seguir, o formul√°rio √© apagado ap√≥s a confirma√ß√£o.");
+define("_DOC_SUP","Um formul·rio poder· ser removido.<br /> Neste caso, o formul·rio ser· apagado do banco de dados definitivamente, mas tudo relativo a este form com seus elementos, envios, estatÌsticas e preferÍncias tambÈm.<br />
+VocÍ dever· selecionar um formul·rio, um pedido de confirmaÁ„o ir· aparecer, a seguir, o formul·rio È apagado apÛs a confirmaÁ„o.");
  
-define("_DOC_MODIF_GESFORM","Modificar os elementos dos formul√°rios");
-define("_DOC_MODIF","Para preencher um formul√°rio, dever√° conter elementos.<br /> H√° dez tipos diferentes de elementos :<ul>
-	<li>Caixa de Texto : simples √°rea de texto, somente na linha</li>
-	<li>√Årea de Texto : uma √°rea de texto mas para poucas linhas</li>
-	<li>√Årea de Sele√ß√£o : simples texto que n√£o poder√° ser alterado, apenas informativo</li>
-	<li>Caixa de Sele√ß√£o : lista de escolhas que permite escolhas m√∫ltiplas, ou n√£o nas op√ß√µes</li>
-	<li>Caixa de Verifica√ß√£o : a caixa s√≥ permite a sele√ß√£o de um elemento</li>
-	<li>Bot√µes de Radio : o mesmo sistema da caixa de verifica√ß√£o</li>
-	<li>Bot√µes Sim/N√£o : 2 bot√µes simples para o certo e errado, verdadeiro ou falso, sim e n√£o</li>
-	<li>Data : permite a escolha de uma data em um calend√°rio pequeno</li>
-	<li>Linha de separa√ß√£o : Permite separar o form em duas ou mais partes</li>
+define("_DOC_MODIF_GESFORM","Modificar os elementos dos formul·rios");
+define("_DOC_MODIF","Para preencher um formul·rio, dever· conter elementos.<br /> H· dez tipos diferentes de elementos :<ul>
+	<li>Caixa de Texto : simples ·rea de texto, somente na linha</li>
+	<li>¡rea de Texto : uma ·rea de texto mas para poucas linhas</li>
+	<li>¡rea de SeleÁ„o : simples texto que n„o poder· ser alterado, apenas informativo</li>
+	<li>Caixa de SeleÁ„o : lista de escolhas que permite escolhas m˙ltiplas, ou n„o nas opÁıes</li>
+	<li>Caixa de VerificaÁ„o : a caixa sÛ permite a seleÁ„o de um elemento</li>
+	<li>Botıes de Radio : o mesmo sistema da caixa de verificaÁ„o</li>
+	<li>Botıes Sim/N„o : 2 botıes simples para o certo e errado, verdadeiro ou falso, sim e n„o</li>
+	<li>Data : permite a escolha de uma data em um calend·rio pequeno</li>
+	<li>Linha de separaÁ„o : Permite separar o form em duas ou mais partes</li>
 	<li>Enviar um Arquivo : Permite o envio de um arquivo diretamente no form</li>
 	</ul>
-	Cada elemento pode ser configurado.<br /> Os par√¢metros podem ser diferentes para cada tipo de elemento.<br />
-	H√° sempre : <ul>
-	<li>Nome do subt√≠tulo</li>
-	<li>Se o subt√≠tulo for obrigat√≥rio ou n√£o</li>
-	<li>A ordem, que pode ser modificada na p√°gina que lista os elementos, usando setas pequenas, para cima ou para baixo</li>
+	Cada elemento pode ser configurado.<br /> Os par‚metros podem ser diferentes para cada tipo de elemento.<br />
+	H· sempre : <ul>
+	<li>Nome do subtÌtulo</li>
+	<li>Se o subtÌtulo for obrigatÛrio ou n„o</li>
+	<li>A ordem, que pode ser modificada na p·gina que lista os elementos, usando setas pequenas, para cima ou para baixo</li>
 	</ul>
-	Para os outros par√¢metros, dependem do tipo de elemento.<br /><br />
-	Cada elemento pode ser modificado, apagado ou duplicado. √â tamb√©m poss√≠vel escolher se o elemento deve ou n√£o ser mostrado.<br />
-	Um link permite o acesso direto ao formul√°rio no lado do usu√°rio.");
+	Para os outros par‚metros, dependem do tipo de elemento.<br /><br />
+	Cada elemento pode ser modificado, apagado ou duplicado. … tambÈm possÌvel escolher se o elemento deve ou n„o ser mostrado.<br />
+	Um link permite o acesso direto ao formul·rio no lado do usu·rio.");
 	
 define("_DOC_PARAM_GESFORM","Modificar parametros do Form");
-define("_DOC_PARAM","√â poss√≠vel modificar os par√¢metros na cria√ß√£o dos formul√°rios.<br />
-Voc√™ deve selecionar um formul√°rio, e todos os par√¢metros ali indicados poder√£o ser modificados no geral.");
+define("_DOC_PARAM","… possÌvel modificar os par‚metros na criaÁ„o dos formul·rios.<br />
+VocÍ deve selecionar um formul·rio, e todos os par‚metros ali indicados poder„o ser modificados no geral.");
 
 define("_DOC_STAT_GESFORM","Status do Form");
-define("_DOC_STAT","O status do formul√°rio define se o formul√°rio est√° dispon√≠vel ou n√£o no lado do usu√°rio.<br />
-Ativado, √© vis√≠vel, desativado, ele √© invis√≠vel mas n√£o √© apagado.");
+define("_DOC_STAT","O status do formul·rio define se o formul·rio est· disponÌvel ou n„o no lado do usu·rio.<br />
+Ativado, È visÌvel, desativado, ele È invisÌvel mas n„o È apagado.");
 
-define("_DOC_PERM_GESFORM","Permiss√µes");
-define("_DOC_PERM","√â poss√≠vel dar permiss√µes a cada formul√°rio, a cada grupo, Webmasters, usu√°rios registados, An√¥nimos e outros que voc√™ criar.<br />
-Se as permiss√µes n√£o forem dadas, os formul√°rios n√£o ser√£o vis√≠veis. Isso porque, imediatamente depois da cria√ß√£o de um formul√°rio novo, √© necess√°rio ir √† p√°gina de permiss√µes.<br />
-Uma caixa de verifica√ß√£o cont√©m ‚Äútodos os‚Äù links para as permiss√µes em todos os formul√°rios e para cada grupo.<br />
-As permiss√µes podem sempre ser modificadas a qualquer momento.");
+define("_DOC_PERM_GESFORM","Permissıes");
+define("_DOC_PERM","… possÌvel dar permissıes a cada formul·rio, a cada grupo, Webmasters, usu·rios registados, AnÙnimos e outros que vocÍ criar.<br />
+Se as permissıes n„o forem dadas, os formul·rios n„o ser„o visÌveis. Isso porque, imediatamente depois da criaÁ„o de um formul·rio novo, È necess·rio ir ‡ p·gina de permissıes.<br />
+Uma caixa de verificaÁ„o contÈm ìtodos osî links para as permissıes em todos os formul·rios e para cada grupo.<br />
+As permissıes podem sempre ser modificadas a qualquer momento.");
 
-define("_DOC_UTIL_GESFORM","Do Lado do usu√°rio");
-define("_DOC_UTIL","No lado do usu√°rio, voc√™ ir√° precisar somente dar um clique no nome de um formul√°rio no bloco.<br />
-Uma mensagem da ajuda em cada link do formul√°rio do usu√°rio para encontrar facilmente as dicas e detalhes.<br />
-Ent√£o, o formul√°rio √© mostrado, e o usu√°rio somente precisa preencher o formul√°rio e dar um clique no bot√£o de envio.");
+define("_DOC_UTIL_GESFORM","Do Lado do usu·rio");
+define("_DOC_UTIL","No lado do usu·rio, vocÍ ir· precisar somente dar um clique no nome de um formul·rio no bloco.<br />
+Uma mensagem da ajuda em cada link do formul·rio do usu·rio para encontrar facilmente as dicas e detalhes.<br />
+Ent„o, o formul·rio È mostrado, e o usu·rio somente precisa preencher o formul·rio e dar um clique no bot„o de envio.");
 
 define("_DOC_MOD_CONSULT","Consutar um Form");
 define("_DOC_CONS_CONSULT","Consultar");
-define("_DOC_CONSULT","Quando um formul√°rio √© enviado, ele poder√° ser gravado.<br /> Ent√£o, √© poss√≠vel consultar todos os envios para cada formul√°rio.<br />
-Voc√™ deve selecionar um formul√°rio. Se n√£o contiver nenhum registro, uma mensagem impede o usu√°rio, outro, exposi√ß√µes de uma p√°gina uma lista de todos os sendings .
-(para uma QCM, voc√™ pode ver nesta p√°gina uma boa m√©dia das respostas desta QCM.)<br />
-√â poss√≠vel requisitar os envios pela data ou pelo usu√°rio. Ent√£o, voc√™ tem que escolher um que melhor se ajuste a sua necessidade.<br />
-Ent√£o, voc√™ pode observar campos de todo o formul√°rio, e os valores enviados pelo usu√°rio.<br />
-para uma QCM, n√≥s podemos ver tamb√©m as boas respostas, e as respostas totalizadas.<br />
-Um link para o perfil do usu√°rio ir√° aparecer nesta p√°gina.<br />
-Cada um envio poder√° tamb√©m ser apagado, e claro, tamb√©m ser√° poss√≠vel apagar todos os enviso de um formul√°rio.");
-define("_DOC_FORM_CONSULT","Formul√°rio");
+define("_DOC_CONSULT","Quando um formul·rio È enviado, ele poder· ser gravado.<br /> Ent„o, È possÌvel consultar todos os envios para cada formul·rio.<br />
+VocÍ deve selecionar um formul·rio. Se n„o contiver nenhum registro, uma mensagem impede o usu·rio, outro, exposiÁıes de uma p·gina uma lista de todos os sendings .
+(para uma QCM, vocÍ pode ver nesta p·gina uma boa mÈdia das respostas desta QCM.)<br />
+… possÌvel requisitar os envios pela data ou pelo usu·rio. Ent„o, vocÍ tem que escolher um que melhor se ajuste a sua necessidade.<br />
+Ent„o, vocÍ pode observar campos de todo o formul·rio, e os valores enviados pelo usu·rio.<br />
+para uma QCM, nÛs podemos ver tambÈm as boas respostas, e as respostas totalizadas.<br />
+Um link para o perfil do usu·rio ir· aparecer nesta p·gina.<br />
+Cada um envio poder· tambÈm ser apagado, e claro, tambÈm ser· possÌvel apagar todos os enviso de um formul·rio.");
+define("_DOC_FORM_CONSULT","Formul·rio");
 define("_DOC_QCM_CONSULT","QCM");
 
-define("_DOC_STAT_CONSULT","Estat√≠sticas");
-define("_DOC_STATI","Estat√≠sticas s√≥ estar√£o dispon√≠veis nos formul√°rios de QCM.<br />
-N√≥s encontramos as respostas preenchidas nos formul√°rios de QCM nas caixas de verifica√ß√£o, teclas seletas, bot√µes de r√°dio e bot√µes de sim/n√£o.<br />
-N√≥s encontramos as porcentagens em respostas e o n√∫mero total destas respostas.<br />
-para uma QCM, n√≥s podemos encontrar os resultados somente para as respostas boas e a porcentagem de sucesso.");
+define("_DOC_STAT_CONSULT","EstatÌsticas");
+define("_DOC_STATI","EstatÌsticas sÛ estar„o disponÌveis nos formul·rios de QCM.<br />
+NÛs encontramos as respostas preenchidas nos formul·rios de QCM nas caixas de verificaÁ„o, teclas seletas, botıes de r·dio e botıes de sim/n„o.<br />
+NÛs encontramos as porcentagens em respostas e o n˙mero total destas respostas.<br />
+para uma QCM, nÛs podemos encontrar os resultados somente para as respostas boas e a porcentagem de sucesso.");
 
 define("_DOC_MOD_EXPORT","Exportar Form");
 define("_DOC_EXP_EXPORT","Exportar");
-define("_DOC_EXPORT","Com esta op√ß√£o extra, √© poss√≠vel observar os envios do formul√°rio.<br />
-Voc√™ deve selecionar um formul√°rio na lista.<br />
-Ent√£o, o formul√°rio √© exportado. Uma mensagem ir√° informar ao usu√°rio que a opera√ß√£o foi realizada com sucesso.<br />
-A lista dos formul√°rios aparece com um link para o arquivo criado no formul√°rio exportado.<br /><br />
-Os envios do formul√°rio ser√£o exportados no formato CSV, no endere√ßo www/uploads/form.csv.<br />
-em um arquivo, sendo que os dados ser√£o se√°rados por ';'.<br />
-Este formato √© compat√≠vel com o Excel por exemplo.");
+define("_DOC_EXPORT","Com esta opÁ„o extra, È possÌvel observar os envios do formul·rio.<br />
+VocÍ deve selecionar um formul·rio na lista.<br />
+Ent„o, o formul·rio È exportado. Uma mensagem ir· informar ao usu·rio que a operaÁ„o foi realizada com sucesso.<br />
+A lista dos formul·rios aparece com um link para o arquivo criado no formul·rio exportado.<br /><br />
+Os envios do formul·rio ser„o exportados no formato CSV, no endereÁo www/uploads/form.csv.<br />
+em um arquivo, sendo que os dados ser„o se·rados por ';'.<br />
+Este formato È compatÌvel com o Excel por exemplo.");
 
 define("_DOC_MOD_MENU","Gerenciamento do Menu");
 define("_DOC_MENU_MENU","Menu");
 
-define("_DOC_MENU","Quando um formul√°rio novo √© criado, um elemento no menu ser√° criado tamb√©m.<br />
-Este menu corresponde aos elementos vis√≠veis no lado do usu√°rio.<br />
-√â poss√≠vel mudar sua ordem, usando setas para cima e para baixo em cada elemento.<br />
-Com um clique na URL, voc√™ pode acessar o formul√°rio pelo lado do usu√°rio.<br />
-√â poss√≠vel ativar ou desativar cada elemento, para torna-lo vis√≠vel ou n√£o.<br />
+define("_DOC_MENU","Quando um formul·rio novo È criado, um elemento no menu ser· criado tambÈm.<br />
+Este menu corresponde aos elementos visÌveis no lado do usu·rio.<br />
+… possÌvel mudar sua ordem, usando setas para cima e para baixo em cada elemento.<br />
+Com um clique na URL, vocÍ pode acessar o formul·rio pelo lado do usu·rio.<br />
+… possÌvel ativar ou desativar cada elemento, para torna-lo visÌvel ou n„o.<br />
 Cada elemento pode ser modificado.<br />
-Ent√£o, voc√™ pode modificar : <ul>
-	<li>A posi√ß√£o do elemento</li>
+Ent„o, vocÍ pode modificar : <ul>
+	<li>A posiÁ„o do elemento</li>
 	<li>O nome</li>
 	<li>O posicionamento a esquerdo, ao centro ou a direita</li>
 	<li>A fonte, normal or bold</li>
 	<li>Acesso a URL do Form</li>
 	<li>Margem do Topo</li>
-	<li>Magem dos bot√µes</li>
+	<li>Magem dos botıes</li>
 	<li>Status, se ativo ou inativo</li>");
 
 define("_DOC_MOD_DIV","Outros");
-define("_DOC_SERV_DIV","Informa√ß√µes do Servidor");
+define("_DOC_SERV_DIV","InformaÁıes do Servidor");
 define("_DOC_ABOUT_DIV","Sobre");
 
-define("_DOC_SERV","Esta p√°gina indica as informa√ß√µes do servidor.<br />
-Indica a vers√£o e o Charset de usu√°rio no Apache que est√£o autorizados/liberados.<br />
-Ent√£o, mostrar√° a vers√£o e a sustenta√ß√£o da biblioteca.<br />
-Ent√£o, voc√™ poder√° observar um pouco da informa√ß√µes de configura√ß√£o.");
+define("_DOC_SERV","Esta p·gina indica as informaÁıes do servidor.<br />
+Indica a vers„o e o Charset de usu·rio no Apache que est„o autorizados/liberados.<br />
+Ent„o, mostrar· a vers„o e a sustentaÁ„o da biblioteca.<br />
+Ent„o, vocÍ poder· observar um pouco da informaÁıes de configuraÁ„o.");
 
-define("_DOC_ABOUT","Nesta p√°gina, voc√™ poder√° procurar as informa√ß√µes sobre os desenvolvedores do m√≥dulo.<br />
-H√° os desenvolvedores conhecidos.<br />
-Ent√£o, h√° o status do m√≥dulo, Link para o site de suporte, mas tamb√©m tem uma p√°gina para relatar um erro ou para sugerir novas fun√ß√µes.<br />
-Ent√£o, h√° o disclaimer para o m√≥dulo.");
+define("_DOC_ABOUT","Nesta p·gina, vocÍ poder· procurar as informaÁıes sobre os desenvolvedores do mÛdulo.<br />
+H· os desenvolvedores conhecidos.<br />
+Ent„o, h· o status do mÛdulo, Link para o site de suporte, mas tambÈm tem uma p·gina para relatar um erro ou para sugerir novas funÁıes.<br />
+Ent„o, h· o disclaimer para o mÛdulo.");
 
-define("_DOC_MOD_RECO","Recomenda√ß√µes");
-define("_DOC_RECO","Os v√°rios testes que formam feitos, mostram um desempenho melhor se usado com Firefox<br />
-A exposi√ß√£o com o Internet Explorer √© a mesma exceto no bloco de usu√°rio, a ajuda n√£o aparece nos formul√°rios.<br /><br />
-Se voc√™ quiser fazer uma instala√ß√£o nova ou uma atualiza√ß√£o deste m√≥dulo de formul√°rio, por favor, n√£o esque√ßa de fazer uma c√≥pia de todos os arquivos e tamb√©m da sua base de dados. Testar a sua atualiza√ß√£o antes em um clone do seu site em localhost √© extremamente recomend√°vel. √â certo que a instala√ß√£o de um m√≥dulo √© uma opera√ß√£o considerada muito simples, mas h√° muitas depend√™ncias entre o xoops e o formulaire. Assim √© necess√°rio ter o maior cuidado com o seu Website de produ√ß√£o.");
+define("_DOC_MOD_RECO","RecomendaÁıes");
+define("_DOC_RECO","Os v·rios testes que formam feitos, mostram um desempenho melhor se usado com Firefox<br />
+A exposiÁ„o com o Internet Explorer È a mesma exceto no bloco de usu·rio, a ajuda n„o aparece nos formul·rios.<br /><br />
+Se vocÍ quiser fazer uma instalaÁ„o nova ou uma atualizaÁ„o deste mÛdulo de formul·rio, por favor, n„o esqueÁa de fazer uma cÛpia de todos os arquivos e tambÈm da sua base de dados. Testar a sua atualizaÁ„o antes em um clone do seu site em localhost È extremamente recomend·vel. … certo que a instalaÁ„o de um mÛdulo È uma operaÁ„o considerada muito simples, mas h· muitas dependÍncias entre o xoops e o formulaire. Assim È necess·rio ter o maior cuidado com o seu Website de produÁ„o.");
 
-define("_DOC_MENU_INSTALL","Instala√ß√£o");
-define("_DOC_MENU_CONFIG","Configura√ß√£o");
-define("_DOC_MENU_PREF","Prefer√™ncias");
+define("_DOC_MENU_INSTALL","InstalaÁ„o");
+define("_DOC_MENU_CONFIG","ConfiguraÁ„o");
+define("_DOC_MENU_PREF","PreferÍncias");
 define("_DOC_MENU_BLGR","Blocos e Grupos");
-define("_DOC_MENU_GESFORM","Ger√™ncia de Formul√°rios");
-define("_DOC_MENU_CREATFORM","Criando Formul√°rios");
+define("_DOC_MENU_GESFORM","GerÍncia de Formul·rios");
+define("_DOC_MENU_CREATFORM","Criando Formul·rios");
 define("_DOC_MENU_RENFORM","Renomear um form");
 define("_DOC_MENU_SUPFORM","Apagar um form");
 define("_DOC_MENU_MODFORM","Modificar um elemento");
 define("_DOC_MENU_MODPFORM","Modificar os parametros do form");
 define("_DOC_MENU_STAT","Status");
-define("_DOC_MENU_PERM","Permiss√µes");
-define("_DOC_MENU_USER","O lado do Usu√°rio");
+define("_DOC_MENU_PERM","Permissıes");
+define("_DOC_MENU_USER","O lado do Usu·rio");
 define("_DOC_MENU_CONS","Consultar");
 define("_DOC_MENU_EXP","Exportar");
 define("_DOC_MENU_MEN","Menu");
 define("_DOC_MENU_DIV","Outros");
-define("_DOC_MENU_REC","Recomenda√ß√µes");
-define("_DOC_MENU_STATI","Estat√≠sticas");
+define("_DOC_MENU_REC","RecomendaÁıes");
+define("_DOC_MENU_STATI","EstatÌsticas");
 ?>
