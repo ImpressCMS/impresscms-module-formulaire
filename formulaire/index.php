@@ -37,6 +37,8 @@ include 'header.php';
 
 //include_once 'include/functions.php';
 
+global $xoopsModule, $xoopsUser, $xoopsDB, $xoopsTpl;
+
 $xoopsOption['template_main'] = 'formulaire_index.html';
 include_once XOOPS_ROOT_PATH.'/header.php';
 
@@ -87,10 +89,10 @@ $xoopsTpl->assign( 'qcm_qcm' , $qcm );
 
 $xoopsTpl->assign( 'admin_module' , 0 );
 $block['admin_module'] = 0;
-if ( $xoopsUser ){
-	if ( $xoopsUser->isAdmin($formulaireModule) ) {
+
+$isadmin = ( ( is_object( $xoopsUser ) && !empty( $xoopsUser ) ) && $xoopsUser -> isAdmin( $xoopsModule -> mid() ) ) ? true : false;
+if ( $isadmin == true ){
 		$xoopsTpl->assign( 'admin_module' , 1 );
-	}
 }
 
 include_once XOOPS_ROOT_PATH.'/footer.php';
