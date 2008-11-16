@@ -1,4 +1,23 @@
 <?php
+/**
+* Formulaire - a multicategory forms with management, e-mail, stats, enquires customizeds
+*
+* File: language/english/main.php
+*
+* @copyright		http://www.xoops.org/ The XOOPS Project
+* @copyright		XOOPS_copyrights.txt
+* @copyright		http://www.impresscms.org/ The ImpressCMS Project
+* @license		           http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
+* ----------------------------------------------------------------------------------------------------------
+* @package		Formulaire 
+* @since			3.30
+* @author		Philou
+* @version		$Id$
+* ----------------------------------------------------------------------------------------------------------
+* @translation	??????????
+* @revision  	??????????
+*/
+
 define("_FORMULAIRE_FORM_TITLE", "Contact us by filling out this form.");
 //define("_FORMULAIRE_MSG_SUBJECT", $xoopsConfig['sitename'].' - Contact Us Form');
 define("_FORMULAIRE_MSG_SUBJECT", '['.$xoopsConfig['sitename'].'] -');
