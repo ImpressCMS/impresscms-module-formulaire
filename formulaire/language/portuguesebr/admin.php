@@ -1,7 +1,22 @@
 <?php
-// traducao mauricio medeiros xoopstotal@gmail.com
-// Tradução por: GibaPhp - gibaphp.xoopstotal@gmail.com - http://www.xoopstotal.com.br - continuação 3.40
-// traducao v.3.30 por Frodobr - frodoxbr@gmail.com
+/**
+* Formulaire - a multicategory forms with management, e-mail, stats, enquires customizeds
+*
+* File: language/portuguesebr/admin.php
+*
+* @copyright		http://www.xoops.org/ The XOOPS Project
+* @copyright		XOOPS_copyrights.txt
+* @copyright		http://www.impresscms.org/ The ImpressCMS Project
+* @license		           http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
+* ----------------------------------------------------------------------------------------------------------
+* @package		Formulaire 
+* @since			3.30
+* @author		Philou
+* @version		$Id$
+* ----------------------------------------------------------------------------------------------------------
+* @translation	v.3.30 Frodobr - frodoxbr@gmail.com and mauricio medeiros xoopstotal@gmail.com / GibaPhp - gibaphp.xoopstotal@gmail.com - http://www.xoopstotal.com.br - continuação... 3.40
+* @revision  	??????????
+*/
 
 define("_AM_SAVE","Ok"); // FrodoBr
 define("_AM_COPIED","%s cópia");
@@ -58,7 +73,7 @@ define("_AM_ELE_SELECTED","Selecionado");
 define("_AM_ELE_CHECKED","Marcado");
 define("_AM_ELE_MULTIPLE","Permitir múltiplas escolhas");
 define("_AM_ELE_TYPE","Mostrar a quebra como");
-define("_AM_ELE_GRAS","Cheio"); // "mauricio" = em francês isso é "gordo" (???) alguma sugestão? ;-) // FrodoBr - cooquei Cheio sem ter certeza, rs :-D
+define("_AM_ELE_GRAS","Negrito"); // "mauricio" = em francês isso é "gordo" (???) alguma sugestão? ;-) // FrodoBr - cooquei Cheio sem ter certeza, rs :-D - Giba (Coloquei negrito) lol
 define("_AM_ELE_RGE","Vermelho");
 define("_AM_ELE_CTRE","Centro");
 define("_AM_ELE_ITALIQ","Itálico");

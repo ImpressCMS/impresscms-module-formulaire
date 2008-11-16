@@ -1,7 +1,23 @@
 <?php
-// traducao mauricio medeiros xoopstotal@gmail.com
-// traducao v.3.30 por Frodobr - frodoxbr@gmail.com
-// Tradução por: GibaPhp - gibaphp.xoopstotal@gmail.com - http://www.xoopstotal.com.br - continuação... 3.40
+/**
+* Formulaire - a multicategory forms with management, e-mail, stats, enquires customizeds
+*
+* File: language/portuguesebr/modinfo.php
+*
+* @copyright		http://www.xoops.org/ The XOOPS Project
+* @copyright		XOOPS_copyrights.txt
+* @copyright		http://www.impresscms.org/ The ImpressCMS Project
+* @license		           http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
+* ----------------------------------------------------------------------------------------------------------
+* @package		Formulaire 
+* @since			3.30
+* @author		Philou
+* @version		$Id$
+* ----------------------------------------------------------------------------------------------------------
+* @translation	v.3.30 Frodobr - frodoxbr@gmail.com and mauricio medeiros xoopstotal@gmail.com / GibaPhp - gibaphp.xoopstotal@gmail.com - http://www.xoopstotal.com.br - continuação... 3.40
+* @revision  	??????????
+*/
+
 // Module Info
 
 // The name of this module
@@ -34,10 +50,10 @@ define("_MI_FORMULAIRE_SEND_METHOD_MAIL","Email");
 define("_MI_FORMULAIRE_SEND_METHOD_PM","Mensagem privada");
 define("_MI_FORMULAIRE_SEND_GROUP","Enviar para o grupo");
 define("_MI_FORMULAIRE_SEND_ADMIN","Enviar apenas para o admin");
-define("_MI_FORMULAIRE_SEND_ADMIN_DESC","Configurações de \"Enviar para o grupo\" serão ignoradas");
+define("_MI_FORMULAIRE_SEND_ADMIN_DESC","Configurações de <b>Enviar para o grupo</b> serão ignoradas");
 
 // The name of this module
-define("_MI_FORMULAIREMENU_NAME","MyMenu");
+define("_MI_FORMULAIREMENU_NAME","Meu Menu");
 
 // A brief description of this module
 define("_MI_FORMULAIREMENU_DESC","Mostra um menu configurável individualmente em um bloco");
@@ -51,7 +67,7 @@ define("_MI_VERSION","3.0");
 // Beta
 define('_MI_WARNING_BETA', "Este módulo é fornecido sem qualquer garantias.
 Este módulo é uma versão BETA, meaning it is still under active development. Esta atualização é para ser usada
-<b>em sites de testes</b> e nós <b>strongly</b> recomendamos que não use isto em sites on-line ou mesmo em sites
+<b>em sites de testes</b> e nós <b>fortemente</b> recomendamos que não use isto em sites on-line ou mesmo em sites
 de produção até que exista uma versão estável.");
 
 // RC
@@ -65,5 +81,8 @@ Embora tenha sido outorgado como uma versão final e não um beta, mesmo assim e
 Esta atualização pode ser usada livremente ou em sites de produção, mas isto será de sua inteira responsabilidade,
 o autor se isenta de qualquer problema que este programa venha gerar no futuro e você concorda com estes termos.");
 
+// Captcha - 80020141
+define( "_MI_FORMULAIRE_CAPTCHA", "Usar captcha no formulário de envio?" );
+define( "_MI_FORMULAIRE_CAPTCHADSC", "Escolha <em>Sim</em> para usar um captcha nos formulários de envio.<br />Padrão: <em>Sim</em>" );
 
 ?>
