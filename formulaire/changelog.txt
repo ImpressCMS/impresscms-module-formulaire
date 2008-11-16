@@ -51,6 +51,9 @@ Added:
 Fixed:
 ======
 
+- (6891) = Fixed: Notice: Object of class XoopsModule could not be converted to int in file /kernel/user.php line 316 (McDonald)
+- (6891) = Notice: Object of class XoopsModule could not be converted to int in file /kernel/groupperm.php line 316 (McDonald)
+
 (F) /formulaire/formulaire.php
 ------------------------------
 ###############################################################################
@@ -60,6 +63,7 @@ Fixed:
 ## Messages were added temporarily until the official approval of the developer Philou.
 ## Only the work is being checked with the class Captcha system impressCMS
 ###############################################################################
+
 
 No Fixed yet:
 =========
